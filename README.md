@@ -9,3 +9,5 @@ To get all articles from a specific news outlet append the news outlet as a new 
 Currently, the only two are:
 - https://premierleagueapi.herokuapp.com/news/theguardian
 - https://premierleagueapi.herokuapp.com/news/espn
+
+Other plans to add more sources, add a limit, get better documentation
