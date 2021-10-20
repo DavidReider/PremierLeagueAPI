@@ -6,8 +6,9 @@ Default API URL: https://premierleagueapi.herokuapp.com/
 To get all articles picked up by the API: https://premierleagueapi.herokuapp.com/news
 
 To get all articles from a specific news outlet append the news outlet as a new path after news.
-Currently, the only two are:
+Currently:
 - https://premierleagueapi.herokuapp.com/news/theguardian
 - https://premierleagueapi.herokuapp.com/news/espn
+- https://premierleagueapi.herokuapp.com/news/skysports
 
 Other plans to add more sources, add a limit, get better documentation
