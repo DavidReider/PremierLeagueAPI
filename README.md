@@ -11,4 +11,14 @@ Currently:
 - https://premierleagueapi.herokuapp.com/news/espn
 - https://premierleagueapi.herokuapp.com/news/skysports
 
+Expected response:
+[
+  {
+    "title":"English Premier LeaguePremier League",
+    "url":"https://www.espn.com/soccer/league/_/name/eng.1",
+    "source":"espn"
+  }
+]
+
+
 Other plans to add more sources, add a limit, get better documentation
