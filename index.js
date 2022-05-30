@@ -54,16 +54,20 @@ newspapers.forEach((newspaper) => {
     .catch((err) => console.log(err));
 });
 
+//to allow cross origin requests
 app.use(cors());
 
+//the api endpoint
 app.get("/", (req, res) => {
   res.json("Welcome to my Premier League New API");
 });
 
+//the endpoint to get all articles
 app.get("/news", (req, res) => {
   res.json(articles);
 });
 
+//the endpoint to get all articles from a specific source
 app.get("/news/:newspaperId", (req, res) => {
   const newspaperId = req.params.newspaperId;
   const newspaperAddress = newspapers.filter(
